@@ -3,9 +3,10 @@
 /**********************************/
 body {
     color: #666666;
-    background: #2c2c2b;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 a {
     color: #222222;
@@ -47,7 +48,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #2c2c2b;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */;
 }
 
 .wrapper .sidebar-header,
@@ -112,7 +113,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #2c2c2b;
+        background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */;
         z-index: 1;
     }
     
@@ -310,6 +311,8 @@ a:focus {
 .header {
     position: relative;
     background: #ffffff;
+    border: 1px solid #e0e0e0; /* Light grey border */
+    background-color: #ffffff; /* White background */
 }
 
 .header .content-inner {
@@ -350,7 +353,9 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #2c2c2b;
+    background: #ffffff;
+    border: 1px solid #e0e0e0; /* Light grey border */
+    background-color: #ffffff; /* White background */
 }
 
 .large-btn .btn {
@@ -565,7 +570,7 @@ a:focus {
 .experience {
     position: relative;
     padding: 60px 30px;
-    background: #222222;
+    background: black;
     border-bottom: 30px solid #2c2c2b;
 }
 
@@ -1074,7 +1079,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #2c2c2b;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */;
 }
 
 .footer .col-md-6:last-child {
